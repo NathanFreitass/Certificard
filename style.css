@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #0001ff 27.26%, #cb79ff 96.03%);
+  font-family: "Electrolize", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  margin: 60px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  color: #1c1c1c;
+  padding: 65px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 170px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 20px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.icones {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 10px 0 0;
+}
+.social {
+  margin: 3px;
+  width: 30px;
+  font-size: 30px;
+  align-items: center;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+}
+
+.projetos {
+  max-height: 300px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 40px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  background: linear-gradient(230.65deg, #0001ff 27.49%, #cb79ff 83.19%);
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400px;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.projeto-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  color: #ffffff;
+  background: #1c1c1c;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #f7f7f7;
+}
